@@ -31,6 +31,7 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.txtData = new System.Windows.Forms.TextBox();
             this.txtIP = new System.Windows.Forms.TextBox();
+            this.btnStatic = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -56,11 +57,22 @@
             this.txtIP.Size = new System.Drawing.Size(146, 20);
             this.txtIP.TabIndex = 2;
             // 
+            // btnStatic
+            // 
+            this.btnStatic.Location = new System.Drawing.Point(428, 228);
+            this.btnStatic.Name = "btnStatic";
+            this.btnStatic.Size = new System.Drawing.Size(129, 23);
+            this.btnStatic.TabIndex = 3;
+            this.btnStatic.Text = "Pridaj staticke adresy";
+            this.btnStatic.UseVisualStyleBackColor = true;
+            this.btnStatic.Click += new System.EventHandler(this.btnStatic_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(740, 262);
+            this.Controls.Add(this.btnStatic);
             this.Controls.Add(this.txtIP);
             this.Controls.Add(this.txtData);
             this.Controls.Add(this.textBox1);
@@ -77,6 +89,7 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox txtData;
         private System.Windows.Forms.TextBox txtIP;
+        private System.Windows.Forms.Button btnStatic;
 
     }
 }

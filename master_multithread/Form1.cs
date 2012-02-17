@@ -49,6 +49,12 @@ namespace master_multithread
             public bool checkedItem { get; set; }
         }
 
+        private class staticAddress
+        {
+            public string startAddr { get; set; }
+            public string endAddr { get; set; }
+        }
+
         public Form1()
         {
             InitializeComponent();
@@ -436,6 +442,12 @@ namespace master_multithread
             Socket remote = (Socket)iar.AsyncState;
             int sent = remote.EndSend(iar);
             
+        }
+
+        private void btnStatic_Click(object sender, EventArgs e)
+        {
+            string[] addresses;
+            addresses = txtIP.Text.Split(';');
         }
     }
 }
