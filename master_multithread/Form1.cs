@@ -341,20 +341,15 @@ namespace master_multithread
             bool OK = false;
 
             textBox1.Text = "";
-            if (txtIP.Text == "")
+            
+            foreach (Slave slave in slaves)
             {
-                foreach (Slave slave in slaves)
+                if (slave.checkedItem == true)
                 {
-                    if (slave.checkedItem == true)
-                    {
-                        Send(slave.ip);
-                    }
+                    Send(slave.ip);
                 }
             }
-            else
-            {
-                Send(txtIP.Text);                
-            }
+            
         }
 
         private void Send(string address)
@@ -446,8 +441,23 @@ namespace master_multithread
 
         private void btnStatic_Click(object sender, EventArgs e)
         {
-            string[] addresses;
+            string[] addresses, address;
+            staticAddress stAddress = new staticAddress();
+            List<staticAddress> staticAddresses = new List<staticAddress>();
             addresses = txtIP.Text.Split(';');
+            for (int i = 0; i < addresses.Length; i++)
+            {
+                address = addresses[i].Split('-');
+                stAddress.startAddr = address[0];
+                if (address.Length > 1)
+                {
+                    stAddress.endAddr = address[1];
+                }
+                else
+                {
+                    stAddress.endAddr = address[0];
+                }
+            }
         }
     }
 }
