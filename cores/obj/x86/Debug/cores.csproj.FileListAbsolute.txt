@@ -1,0 +1,5 @@
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\network programming\network\cores\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\network programming\network\cores\bin\Debug\cores.exe
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\network programming\network\cores\bin\Debug\cores.pdb
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\network programming\network\cores\obj\x86\Debug\cores.exe
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\network programming\network\cores\obj\x86\Debug\cores.pdb

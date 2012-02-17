@@ -1,0 +1,14 @@
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\network programming\network\slave\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\network programming\network\slave\obj\x86\Debug\slave.Form1.resources
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\network programming\network\slave\obj\x86\Debug\slave.Properties.Resources.resources
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\network programming\network\slave\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\network programming\network\slave\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\network programming\network\slave\bin\Debug\slave.exe
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\network programming\network\slave\bin\Debug\slave.pdb
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\network programming\network\slave\obj\x86\Debug\slave.exe
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\network programming\network\slave\obj\x86\Debug\slave.pdb
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\network programming\network\slave\bin\Debug\helpers.dll
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\network programming\network\slave\bin\Debug\helpers.pdb
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\network programming\network\slave\bin\Debug\slave.exe.config
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\network programming\network\slave\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\network programming\network\slave\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog

@@ -1,0 +1,12 @@
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\network programming\network\network\bin\Release\network.exe
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\network programming\network\network\bin\Release\network.pdb
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\network programming\network\network\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\network programming\network\network\obj\x86\Release\network.Form1.resources
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\network programming\network\network\obj\x86\Release\network.Properties.Resources.resources
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\network programming\network\network\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\network programming\network\network\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\network programming\network\network\obj\x86\Release\network.exe
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\network programming\network\network\obj\x86\Release\network.pdb
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\network programming\network\network\obj\x86\Release\GenerateResource-ResGen.read.1.tlog
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\network programming\network\network\obj\x86\Release\GenerateResource-ResGen.write.1.tlog
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\network programming\network\network\bin\Release\network.exe.config

@@ -1,0 +1,9 @@
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\network programming\network\master_multithread\bin\Release\master_multithread.exe
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\network programming\network\master_multithread\bin\Release\master_multithread.pdb
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\network programming\network\master_multithread\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\network programming\network\master_multithread\obj\x86\Release\master_multithread.Form1.resources
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\network programming\network\master_multithread\obj\x86\Release\master_multithread.Properties.Resources.resources
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\network programming\network\master_multithread\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\network programming\network\master_multithread\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\network programming\network\master_multithread\obj\x86\Release\master_multithread.exe
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\network programming\network\master_multithread\obj\x86\Release\master_multithread.pdb

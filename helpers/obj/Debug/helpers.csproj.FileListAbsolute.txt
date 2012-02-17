@@ -1,0 +1,5 @@
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\network programming\network\helpers\bin\Debug\helpers.dll
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\network programming\network\helpers\bin\Debug\helpers.pdb
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\network programming\network\helpers\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\network programming\network\helpers\obj\Debug\helpers.dll
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\network programming\network\helpers\obj\Debug\helpers.pdb
