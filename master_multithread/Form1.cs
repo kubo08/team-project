@@ -36,6 +36,7 @@ namespace master_multithread
         private int prijate_dlzka;
         private EndPoint prijate_EndPoint;
         List<int> Ack = new List<int>();
+        List<staticAddress> stAddresses = new List<staticAddress>();
         int maxPacketNum = 16000;       ///opravit
 
         int packetNumber = 1;
@@ -115,6 +116,9 @@ namespace master_multithread
 
         void Send()
         {
+            bool cont = true;
+            IPAddress ipadd;
+            string[] startAdd, endAdd;
             while (true)
             {
                 byte[] send_data = new byte[1024];
@@ -127,9 +131,74 @@ namespace master_multithread
 
                 send_data[2] = 0x01<<4;         //hladame spustenych slave-ov
                 test.SendTo(send_data, iep2);
+
+
+                for (int i = 0; i < stAddresses.Count; i++)         //asi nebude najstastnejsie riesenie
+                {
+                    ipadd = IPAddress.Parse(stAddresses[i].startAddr);
+                    while (cont)
+                    {
+                        ie2 = new IPEndPoint(ipadd, 9050);
+                        iep2 = (IPEndPoint)ie2;
+                        test.SendTo(send_data, iep2);
+                        startAdd = (ipadd.ToString().Split('.'));
+                        endAdd=(stAddresses[i].endAddr).ToString().Split('.');
+                        if (Convert.ToInt32(startAdd[3]) >= Convert.ToInt32(endAdd[3]))
+                        {
+                            if (Convert.ToInt32(startAdd[2]) >= Convert.ToInt32(endAdd[2]))
+                            {
+                                if (Convert.ToInt32(startAdd[1]) >= Convert.ToInt32(endAdd[1]))
+                                {
+                                    if (Convert.ToInt32(startAdd[0]) >= Convert.ToInt32(endAdd[0]))
+                                    {
+                                        cont = false;
+                                    }
+                                    else
+                                    {
+                                        ipadd = zvysAdresu(startAdd);
+                                    }
+                                }
+                                else
+                                {
+                                    ipadd = zvysAdresu(startAdd);
+                                }
+                            }
+                            else
+                            {
+                                ipadd = zvysAdresu(startAdd);
+                            }
+                        }
+                        else
+                        {
+                            ipadd = zvysAdresu(startAdd);
+                        }
+                    }
+                }
                 test.Close();
                 Thread.Sleep(30000);
             }
+        }
+
+        IPAddress zvysAdresu(string[] add)
+        {
+            add[3] = (Convert.ToInt32(add[3]) + 1).ToString();
+            if (Convert.ToInt32(add[3]) > 256)
+            {
+                add[2] = (Convert.ToInt32(add[2]) + 1).ToString();
+                add[3] = (0).ToString();
+                if (Convert.ToInt32(add[2]) > 256)
+                {
+                    add[1] = (Convert.ToInt32(add[1]) + 1).ToString();
+                    add[2] = (0).ToString();
+                    if (Convert.ToInt32(add[1]) > 256)
+                    {
+                        add[0] = (Convert.ToInt32(add[0]) + 1).ToString();
+                        add[1] = (0).ToString();
+                    }
+                }
+            }
+
+            return IPAddress.Parse(string.Format("{0}.{1}.{2}.{3}", add[0], add[1], add[2], add[3]));
         }
 
         void ListenUDP()
