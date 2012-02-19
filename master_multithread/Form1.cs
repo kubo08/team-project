@@ -18,8 +18,10 @@ using System.Net.Sockets;
  * Master TCP Listen on port 9058
 ************/
 
+
 namespace master_multithread
 {
+
     public partial class Form1 : Form
     {
         List<Slave> slaves = new List<Slave>();
@@ -55,6 +57,8 @@ namespace master_multithread
             public string startAddr { get; set; }
             public string endAddr { get; set; }
         }
+
+        
 
         public Form1()
         {
@@ -143,6 +147,7 @@ namespace master_multithread
                         test.SendTo(send_data, iep2);
                         startAdd = (ipadd.ToString().Split('.'));
                         endAdd=(stAddresses[i].endAddr).ToString().Split('.');
+
                         if (Convert.ToInt32(startAdd[3]) >= Convert.ToInt32(endAdd[3]))
                         {
                             if (Convert.ToInt32(startAdd[2]) >= Convert.ToInt32(endAdd[2]))
