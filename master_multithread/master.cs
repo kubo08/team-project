@@ -9,6 +9,7 @@ using System.Windows.Forms;
 using System.Net;
 using System.Threading;
 using System.Net.Sockets;
+using helpers;
 
 /**********
  * Master UDP Listen on port 9051
@@ -22,7 +23,7 @@ using System.Net.Sockets;
 namespace master_multithread
 {
 
-    public partial class Form1 : Form
+    public partial class master : Form
     {
         List<Slave> slaves = new List<Slave>();
         private Panel SlavePanel;
@@ -41,26 +42,11 @@ namespace master_multithread
         List<staticAddress> stAddresses = new List<staticAddress>();
         int maxPacketNum = 16000;       ///opravit
 
-        int packetNumber = 1;
-
-        private class Slave
-        {
-            public string name {get; set;}
-            public string ip { get; set; }
-            public bool matlab { get; set; }
-            public int num_cpu { get; set; }
-            public bool checkedItem { get; set; }
-        }
-
-        private class staticAddress
-        {
-            public string startAddr { get; set; }
-            public string endAddr { get; set; }
-        }
+        int packetNumber = 1;        
 
         
 
-        public Form1()
+        public master()
         {
             InitializeComponent();
         }
@@ -410,23 +396,30 @@ namespace master_multithread
 
         private void btnSend_Click(object sender, EventArgs e)
         {
-            int test = 0;
+            //int test = 0;
             
-            bool OK = false;
+            //bool OK = false;
 
-            textBox1.Text = "";
+            //textBox1.Text = "";
             
+            //foreach (Slave slave in slaves)
+            //{
+            //    if (slave.checkedItem == true)
+            //    {
+            //        Send(slave.ip);
+            //    }
+            //}
             foreach (Slave slave in slaves)
             {
-                if (slave.checkedItem == true)
-                {
-                    Send(slave.ip);
-                }
+                helpers.sender.slaves.Add(slave);
             }
-            
+
+            master_multithread.Form1 generator = new Form1();
+            generator.Show();
+                        
         }
 
-        private void Send(string address)
+        public void Send(string address)            //posiela data na ip adresu
         {
             string data;
             byte[] send_data = new byte[1024];

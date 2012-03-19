@@ -1,0 +1,22 @@
+D:\nboce\Documents\Visual Studio 2010\Projects\GeneticAlgorithmGenerator\GeneticAlgorithmGenerator\bin\Debug\GeneticAlgorithmGenerator.exe
+D:\nboce\Documents\Visual Studio 2010\Projects\GeneticAlgorithmGenerator\GeneticAlgorithmGenerator\bin\Debug\GeneticAlgorithmGenerator.pdb
+D:\nboce\Documents\Visual Studio 2010\Projects\GeneticAlgorithmGenerator\GeneticAlgorithmGenerator\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\nboce\Documents\Visual Studio 2010\Projects\GeneticAlgorithmGenerator\GeneticAlgorithmGenerator\obj\x86\Debug\GeneticAlgorithmGenerator.Form1.resources
+D:\nboce\Documents\Visual Studio 2010\Projects\GeneticAlgorithmGenerator\GeneticAlgorithmGenerator\obj\x86\Debug\GeneticAlgorithmGenerator.Properties.Resources.resources
+D:\nboce\Documents\Visual Studio 2010\Projects\GeneticAlgorithmGenerator\GeneticAlgorithmGenerator\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\nboce\Documents\Visual Studio 2010\Projects\GeneticAlgorithmGenerator\GeneticAlgorithmGenerator\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\nboce\Documents\Visual Studio 2010\Projects\GeneticAlgorithmGenerator\GeneticAlgorithmGenerator\obj\x86\Debug\GeneticAlgorithmGenerator.exe
+D:\nboce\Documents\Visual Studio 2010\Projects\GeneticAlgorithmGenerator\GeneticAlgorithmGenerator\obj\x86\Debug\GeneticAlgorithmGenerator.pdb
+D:\nboce\Documents\Visual Studio 2010\Projects\GeneticAlgorithmGenerator\GeneticAlgorithmGenerator\obj\x86\Debug\Interop.MLApp.dll
+D:\nboce\Documents\Visual Studio 2010\Projects\GeneticAlgorithmGenerator\GeneticAlgorithmGenerator\obj\x86\Debug\GeneticAlgorithmGenerator.csproj.ResolveComReference.cache
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\GeneticAlgorithmGenerator\GeneticAlgorithmGenerator\GeneticAlgorithmGenerator\obj\x86\Debug\Interop.MLApp.dll
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\GeneticAlgorithmGenerator\GeneticAlgorithmGenerator\GeneticAlgorithmGenerator\obj\x86\Debug\GeneticAlgorithmGenerator.csproj.ResolveComReference.cache
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\GeneticAlgorithmGenerator\GeneticAlgorithmGenerator\GeneticAlgorithmGenerator\obj\x86\Debug\GeneticAlgorithmGenerator.exe
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\GeneticAlgorithmGenerator\GeneticAlgorithmGenerator\GeneticAlgorithmGenerator\obj\x86\Debug\GeneticAlgorithmGenerator.pdb
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\GeneticAlgorithmGenerator\GeneticAlgorithmGenerator\GeneticAlgorithmGenerator\bin\Debug\GeneticAlgorithmGenerator.exe
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\GeneticAlgorithmGenerator\GeneticAlgorithmGenerator\GeneticAlgorithmGenerator\bin\Debug\GeneticAlgorithmGenerator.pdb
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\GeneticAlgorithmGenerator\GeneticAlgorithmGenerator\GeneticAlgorithmGenerator\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\GeneticAlgorithmGenerator\GeneticAlgorithmGenerator\GeneticAlgorithmGenerator\obj\x86\Debug\GeneticAlgorithmGenerator.Form1.resources
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\GeneticAlgorithmGenerator\GeneticAlgorithmGenerator\GeneticAlgorithmGenerator\obj\x86\Debug\GeneticAlgorithmGenerator.Properties.Resources.resources
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\GeneticAlgorithmGenerator\GeneticAlgorithmGenerator\GeneticAlgorithmGenerator\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\jakub\Documents\!skola\!!FEI ING\tp\GeneticAlgorithmGenerator\GeneticAlgorithmGenerator\GeneticAlgorithmGenerator\obj\x86\Debug\GenerateResource.write.1.tlog

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq;
+//using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.Net;
@@ -46,7 +46,7 @@ using System.Runtime.InteropServices;
 
 namespace slave_multithread
 {
-    public partial class Form1 : Form
+    public partial class slave : Form
     {
 
         Socket client;
@@ -84,7 +84,7 @@ namespace slave_multithread
 
         volatile List<dataToSend> ToSend = new List<dataToSend>();
 
-        public Form1()
+        public slave()
         {
             InitializeComponent();
         }
@@ -112,8 +112,10 @@ namespace slave_multithread
             
 
             MLApp.MLApp matlab = new MLApp.MLApp();
+            string d;
+            d = "";
 
-            for (int a = 0; a < lines.Count(); a++)
+            for (int a = 0; a < lines.Length; a++)
             {
                 if(lines[a].StartsWith("\n"))
                     lines[a]=lines[a].Remove(0,1);
@@ -121,10 +123,10 @@ namespace slave_multithread
                 string i = matlab.Execute(lines[a]);
                 //TODO osetrit ak nie je spravny matlabovsky prikaz
 
-                if (lines[a].Contains('='))                         //ak obsahuje = prekpokladame ze pred = je premenna ktoru posleme spet
+                if (lines[a].Contains("="))                         //ak obsahuje = prekpokladame ze pred = je premenna ktoru posleme spet
                 {
                     var_temp = lines[a].Split('=')[0].Split(", ".ToCharArray());   
-                    for (int b = 0; b < var_temp.Count(); b++)
+                    for (int b = 0; b < var_temp.Length; b++)
                     {
                         if (var_temp[b].StartsWith("["))                //odstranime [] ak nahodou obsahuje
                         {
@@ -391,7 +393,7 @@ namespace slave_multithread
             data[3] = (byte)name.Length;
             for (int a = 0; a < name.Length; a++)   //meno
             {
-                data[a + 4] = (byte)name.ToArray()[a];
+                data[a + 4] = (byte)name.ToCharArray()[a];
             }
             
             data[name.Length + 4] = (byte)num_CPU;  //pocet cpu          
@@ -427,7 +429,7 @@ namespace slave_multithread
             data[3] = (byte)name.Length;
             for (int a = 0; a < name.Length; a++)   //meno
             {
-                data[a + 2] = (byte)name.ToArray()[a];
+                data[a + 2] = (byte)name.ToCharArray()[a];
             }
 
             data[name.Length + 4] = (byte)num_CPU;  //pocet cpu          

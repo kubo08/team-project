@@ -14,9 +14,11 @@ C:\Users\jakub\team-project\slave_multithread\bin\Debug\slave_multithread.pdb
 C:\Users\jakub\team-project\slave_multithread\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\jakub\team-project\slave_multithread\obj\x86\Debug\Interop.MLApp.dll
 C:\Users\jakub\team-project\slave_multithread\obj\x86\Debug\slave_multithread.csproj.ResolveComReference.cache
-C:\Users\jakub\team-project\slave_multithread\obj\x86\Debug\slave_multithread.Form1.resources
 C:\Users\jakub\team-project\slave_multithread\obj\x86\Debug\slave_multithread.Properties.Resources.resources
-C:\Users\jakub\team-project\slave_multithread\obj\x86\Debug\GenerateResource.read.1.tlog
-C:\Users\jakub\team-project\slave_multithread\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\Users\jakub\team-project\slave_multithread\obj\x86\Debug\slave_multithread.exe
 C:\Users\jakub\team-project\slave_multithread\obj\x86\Debug\slave_multithread.pdb
+C:\Users\jakub\team-project\slave_multithread\obj\x86\Debug\slave_multithread.slave.resources
+C:\Users\jakub\team-project\slave_multithread\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\jakub\team-project\slave_multithread\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\jakub\team-project\slave_multithread\bin\Debug\slave_multithread.exe.config
+C:\Users\jakub\team-project\slave_multithread\bin\Debug\Interop.MLApp.dll

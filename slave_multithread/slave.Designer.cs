@@ -1,6 +1,6 @@
 ﻿namespace slave_multithread
 {
-    partial class Form1
+    partial class slave
     {
         /// <summary>
         /// Required designer variable.

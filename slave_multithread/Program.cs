@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
+//using System.Linq;
 using System.Windows.Forms;
 
 namespace slave_multithread
@@ -15,7 +15,7 @@ namespace slave_multithread
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new slave());
         }
     }
 }

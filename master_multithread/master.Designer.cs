@@ -1,6 +1,6 @@
 ﻿namespace master_multithread
 {
-    partial class Form1
+    partial class master
     {
         /// <summary>
         /// Required designer variable.
